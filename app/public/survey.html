@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Friend Finder!</title>  
+
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/core.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1 class="display-5">Survey Questions</h1>
+		<hr>
+		<h1 class="display-6">About You</h1> 
+		<form>
+  			<div class="form-group">
+    			<label class="col-form-label" for="formGroupName">Name (Required)</label>
+    			<input type="text" class="form-control" id="name" placeholder="Example input">
+  			</div>
+  			<div class="form-group">
+    			<label class="col-form-label" for="formGroupPhoto">Link To Photo Image (Required)</label>
+    			<input type="text" class="form-control" id="photo" placeholder="Another input">
+  			</div>
+		</form>
+		<hr>
+		<h1 class="display-6">Question 1</h1>
+		<p>Your mind is always buzzing with unexplored ideas and plans.</p>
+		<select class="custom-select" id="qOne">
+  			<option selected>Select an Option</option>
+  			<option value="1">1</option>
+  			<option value="2">2</option>
+  			<option value="3">3</option>
+  			<option value="4">4</option>
+  			<option value="5">5</option>
+		</select>
+		<hr>
+		<h1 class="display-6">Question 2</h1>
+		<p>Generally speaking, you rely more on your experience than your imagination.</p>
+		<select class="custom-select" id="qTwo">
+  			<option selected>Select an Option</option>
+  			<option value="1">1</option>
+  			<option value="2">2</option>
+  			<option value="3">3</option>
+  			<option value="4">4</option>
+  			<option value="5">5</option>
+		</select>
+		<hr>
+		<h1 class="display-6">Question 3</h1>
+		<p>You find it easy to stay relaxed and focus even when there is some pressure.</p>
+		<select class="custom-select" id="qThree">
+  			<option selected>Select an Option</option>
+  			<option value="1">1</option>
+  			<option value="2">2</option>
+  			<option value="3">3</option>
+  			<option value="4">4</option>
+  			<option value="5">5</option>
+		</select>
+		<hr>
+		<h1 class="display-6">Question 4</h1>
+		<p>You rarely do something just out of sheer curiosity.</p>
+		<select class="custom-select" id="qFour">
+  			<option selected>Select an Option</option>
+  			<option value="1">1</option>
+  			<option value="2">2</option>
+  			<option value="3">3</option>
+  			<option value="4">4</option>
+  			<option value="5">5</option>
+		</select>
+		<hr>
+		<h1 class="display-6">Question 5</h1>
+		<p>People can rarely upset you.</p>
+		<select class="custom-select" id="qFive">
+  			<option selected>Select an Option</option>
+  			<option value="1">1</option>
+  			<option value="2">2</option>
+  			<option value="3">3</option>
+  			<option value="4">4</option>
+  			<option value="5">5</option>
+		</select>
+		<hr>
+		<h1 class="display-6">Question 6</h1>
+		<p>It is often difficult for you to relate to other people's feelings</p>
+		<select class="custom-select" id="qSix">
+  			<option selected>Select an Option</option>
+  			<option value="1">1</option>
+  			<option value="2">2</option>
+  			<option value="3">3</option>
+  			<option value="4">4</option>
+  			<option value="5">5</option>
+		</select>
+		<hr>
+		<h1 class="display-6">Question 7</h1>
+		<p>In a discussion, truth should be more important than people's sensitivities.</p>
+		<select class="custom-select" id="qSeven">
+  			<option selected>Select an Option</option>
+  			<option value="1">1</option>
+  			<option value="2">2</option>
+  			<option value="3">3</option>
+  			<option value="4">4</option>
+  			<option value="5">5</option>
+		</select>
+		<hr>
+		<h1 class="display-6">Question 8</h1>
+		<p>You rarely get carried away by fantasies and ideas.</p>
+		<select class="custom-select" id="qEight">
+  			<option selected>Select an Option</option>
+  			<option value="1">1</option>
+  			<option value="2">2</option>
+  			<option value="3">3</option>
+  			<option value="4">4</option>
+  			<option value="5">5</option>
+		</select>
+		<hr>
+		<h1 class="display-6">Question 9</h1>
+		<p>You think that everyone's views should be respected regardless of whether they are supported by facts or not.</p>
+		<select class="custom-select" id="qNine">
+  			<option selected>Select an Option</option>
+  			<option value="1">1</option>
+  			<option value="2">2</option>
+  			<option value="3">3</option>
+  			<option value="4">4</option>
+  			<option value="5">5</option>
+		</select>
+		<hr>
+		<h1 class="display-6">Question 10</h1>
+		<p>You feel more energetic after spending time with a group of people.</p>
+		<select class="custom-select" id="qTen">
+  			<option selected>Select an Option</option>
+  			<option value="1">1</option>
+  			<option value="2">2</option>
+  			<option value="3">3</option>
+  			<option value="4">4</option>
+  			<option value="5">5</option> 
+		</select>
+		<hr>
+		<div class="col-auto">
+      		<button type="submit" class="btn btn-primary" id="submit">Submit</button>
+    </div>
+    <hr>
+    <footer class="footer">
+      		<div class="container">
+	        	<p><a href="/api/friends">API Table Link</a></p>
+      		</div>
+    </footer>
+	</div>
+
+  <script type="text/javascript">
+    $("#submit").on("click", function() {
+        
+        function downloadInputs() {
+           //Initializing variable to make sure the input fields are filled 
+            var formText = true;
+          $(".form-control").each(function() {
+              //"This" refers to the ".form-control" fields. If an input field is empty, it would turn
+              //formText to false
+              if ($(this).val() === "") {
+                formText = false;
+              }
+            });
+
+          $(".chosen-select").each(function() {
+              //Doing the same process as in the input fields
+              if ($(this).val() === "") {
+                formText = false;
+              }
+              return formText;
+          });
+            //Now if all fields are filled
+            if (downloadInputs() === true) {
+            //Taking all inputs and putting them into a variable with key value pairs
+            var appUser = {
+              name: $("#name").val(),
+              photo: $("#photo").val(),
+              scores: [$("#qOne").val(), $("#qTwo").val(), $("#qThree").val(), $("#qFour").val(), $("#qFive").val(), $("#qSix").val(), $("#qSeven").val(), $("#qEight").val(), $("#qNine").val(), $("#qTen").val()]
+            }
+            var currentURL = window.location.origin;
+
+            $.ajax({currentURL + "/api/friends", method: "POST"}, appUser, function (data) {
+            .done(function(data) {
+              console.log(data);
+              console.log("Adding new friend...");
+            });  
+          });
+
+          } else {
+            alert("Please fill out survey completely.");
+          }
+
+          //Clearing the form once data is submitted
+          $("#name").val("");
+          $("#photo").val("");
+          $("#qOne").val(""); 
+          $("#qTwo").val(""); 
+          $("#qThree").val(""); 
+          $("#qFour").val(""); 
+          $("#qFive").val(""); 
+          $("#qSix").val(""); 
+          $("#qSeven").val(""); 
+          $("#qEight").val(""); 
+          $("#qNine").val(""); 
+          $("#qTen").val("");
+
+        }
+    });
+
+  </script>
+</body>
+</html>
